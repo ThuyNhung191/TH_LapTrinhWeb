@@ -16,6 +16,14 @@ namespace WebBanHang.Controllers
             _productRepository = productRepository;
             _categoryRepository = categoryRepository;
         }
+        public async Task<IActionResult> Display(int id)
+        {
+            var product = await _productRepository.GetByIdAsync(id);
+            if(product == null) return NotFound();
+
+            return View(product);
+
+        }
         public async Task<IActionResult> Index()
         {
             var products = await _productRepository.GetAllAsync();
@@ -31,38 +39,47 @@ namespace WebBanHang.Controllers
 
         [HttpPost]
         public async Task<IActionResult> Add(Product product, IFormFile imageUrl)
-
         {
-            if (ModelState.IsValid)
-            {
-                if (imageUrl != null)
-                {
-                    // Lưu hình ảnh đại diện tham khảo bài 02 hàm SaveImage 
-                    product.ImageUrl = await SaveImage(imageUrl);
-                }
+            // if (ModelState.IsValid)
+            // {
+            //     if (imageUrl != null)
+            //     {
+            //         // Lưu hình ảnh đại diện tham khảo bài 02 hàm SaveImage 
+            //         product.ImageUrl = await SaveImage(imageUrl);
+            //     }
 
-                await _productRepository.AddAsync(product);
-                return RedirectToAction(nameof(Index));
+            //     await _productRepository.AddAsync(product);
+            //     return RedirectToAction(nameof(Index));
+            // }
+            // // Nếu ModelState không hợp lệ, hiển thị form với dữ liệu đã nhập 
+            // var categories = await _categoryRepository.GetAllAsync();
+            // ViewBag.Categories = new SelectList(categories, "Id", "Name");
+            // return View(product);
+            if (!ModelState.IsValid)
+            {
+                var categories = await _categoryRepository.GetAllAsync();
+                ViewBag.Categories = new SelectList(categories, "Id", "Name");
+                return View(product);
             }
-            // Nếu ModelState không hợp lệ, hiển thị form với dữ liệu đã nhập 
-            var categories = await _categoryRepository.GetAllAsync();
-            ViewBag.Categories = new SelectList(categories, "Id", "Name");
-            return View(product);
+
+            if (imageUrl != null && imageUrl.Length > 0)
+            {
+                product.ImageUrl = await SaveImage(imageUrl);
+            }
+            else
+            {
+                product.ImageUrl = "~/images/default.jpg"; // ✅ Nếu không có ảnh, dùng ảnh mặc định
+            }
+
+            await _productRepository.AddAsync(product);
+            return RedirectToAction(nameof(Index));
         }
 
         // Các actions khác như Display, Update, Delete 
 
         // Display a list of products 
         // Display a single product 
-        public async Task<IActionResult> Display(int id)
-        {
-            var product = await _productRepository.GetByIdAsync(id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-            return View(product);
-        }
+        
 
         // Show the product update form 
         public async Task<IActionResult> Update(int id)
@@ -138,16 +155,22 @@ namespace WebBanHang.Controllers
             await _productRepository.DeleteAsync(id);
             return RedirectToAction(nameof(Index));
         }
-        [HttpPost("product/add")]
-        private async Task<string> SaveImage(IFormFile image)
+
+        public async Task<string> SaveImage(IFormFile imageFile)
         {
-            //Thay đổi đường dẫn theo cấu hình của bạn 
-            var savePath = Path.Combine("wwwroot/images", image.FileName);
-            using (var fileStream = new FileStream(savePath, FileMode.Create))
+            if (imageFile == null || imageFile.Length == 0)
+                return "~/images/default.jpg"; // ✅ Trả về ảnh mặc định nếu không có ảnh
+
+            string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
+            string fileName = Path.GetFileName(imageFile.FileName);
+            string filePath = Path.Combine(uploadsFolder, fileName);
+
+            using (var fileStream = new FileStream(filePath, FileMode.Create))
             {
-                await image.CopyToAsync(fileStream);
+                await imageFile.CopyToAsync(fileStream);
             }
-            return "/images/" + image.FileName; // Trả về đường dẫn tương đối 
+
+            return $"~/images/{fileName}"; // ✅ Trả về đường dẫn ảnh
         }
     }
 }

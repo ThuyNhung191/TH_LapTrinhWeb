@@ -1,599 +1,607 @@
 {
   "Files": [
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/obj/Debug/net9.0/scopedcss/projectbundle/WebBanHang.bundle.scp.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/obj/Debug/net9.0/scopedcss/projectbundle/WebBanHang.bundle.scp.css",
       "PackagePath": "staticwebassets/WebBanHang.cnvw0vktnj.bundle.scp.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/LICENSE",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/bootstrap"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/css/bootstrap.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/css/bootstrap.css",
       "PackagePath": "staticwebassets/css/bootstrap.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/css/font-awesome.min.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/css/font-awesome.min.css",
       "PackagePath": "staticwebassets/css/font-awesome.min.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/css/responsive.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/css/responsive.css",
       "PackagePath": "staticwebassets/css/responsive.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/css/slick-theme.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/css/slick-theme.css",
       "PackagePath": "staticwebassets/css/slick-theme.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/css/slick.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/css/slick.css",
       "PackagePath": "staticwebassets/css/slick.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/css/style.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/css/style.css",
       "PackagePath": "staticwebassets/css/style.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/css/style.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/css/style.css.map",
       "PackagePath": "staticwebassets/css/style.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/css/style.scss",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/css/style.scss",
       "PackagePath": "staticwebassets/css/style.scss"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/favicon.ico",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/fonts/fontawesome-webfont.ttf",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/fonts/fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets/fonts/fontawesome-webfont.ttf"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/fonts/fontawesome-webfont.woff",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/fonts/fontawesome-webfont.woff",
       "PackagePath": "staticwebassets/fonts/fontawesome-webfont.woff"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/fonts/fontawesome-webfont.woff2",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/fonts/fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets/fonts/fontawesome-webfont.woff2"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/fonts/octin_sports_rg.ttf",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/fonts/octin_sports_rg.ttf",
       "PackagePath": "staticwebassets/fonts/octin_sports_rg.ttf"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/about-img.jpg",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/about-img.jpg",
       "PackagePath": "staticwebassets/images/about-img.jpg"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/about-img.png",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/about-img.png",
       "PackagePath": "staticwebassets/images/about-img.png"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/b1.jpg",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/b1.jpg",
       "PackagePath": "staticwebassets/images/b1.jpg"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/b2.jpg",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/b2.jpg",
       "PackagePath": "staticwebassets/images/b2.jpg"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/b3.jpg",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/b3.jpg",
       "PackagePath": "staticwebassets/images/b3.jpg"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/blog-img1.jpg",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/blog-img1.jpg",
       "PackagePath": "staticwebassets/images/blog-img1.jpg"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/blog-img2.jpg",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/blog-img2.jpg",
       "PackagePath": "staticwebassets/images/blog-img2.jpg"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/client.jpg",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/client.jpg",
       "PackagePath": "staticwebassets/images/client.jpg"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/decoration-img.png",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/decoration-img.png",
       "PackagePath": "staticwebassets/images/decoration-img.png"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/f1.png",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/f1.png",
       "PackagePath": "staticwebassets/images/f1.png"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/f2.png",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/f2.png",
       "PackagePath": "staticwebassets/images/f2.png"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/f3.png",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/f3.png",
       "PackagePath": "staticwebassets/images/f3.png"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/f4.png",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/f4.png",
       "PackagePath": "staticwebassets/images/f4.png"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/f5.png",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/f5.png",
       "PackagePath": "staticwebassets/images/f5.png"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/f6.png",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/f6.png",
       "PackagePath": "staticwebassets/images/f6.png"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/fevicon.png",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/fevicon.png",
       "PackagePath": "staticwebassets/images/fevicon.png"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/menu.png",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/menu.png",
       "PackagePath": "staticwebassets/images/menu.png"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/offer-img.png",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/offer-img.png",
       "PackagePath": "staticwebassets/images/offer-img.png"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/search-icon.png",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/search-icon.png",
       "PackagePath": "staticwebassets/images/search-icon.png"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/slider-bg.jpg",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/slider-bg.jpg",
       "PackagePath": "staticwebassets/images/slider-bg.jpg"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/slider-bg2.jpg",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/slider-bg2.jpg",
       "PackagePath": "staticwebassets/images/slider-bg2.jpg"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/slider-img.png",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/slider-img.png",
       "PackagePath": "staticwebassets/images/slider-img.png"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/slider-img1.png",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/slider-img1.png",
       "PackagePath": "staticwebassets/images/slider-img1.png"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/slider-img2.png",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/slider-img2.png",
       "PackagePath": "staticwebassets/images/slider-img2.png"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/slider-img3.png",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/slider-img3.png",
       "PackagePath": "staticwebassets/images/slider-img3.png"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/images/user.png",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/user.png",
       "PackagePath": "staticwebassets/images/user.png"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/js/bootstrap.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/—Pngtree—database glyph black icon_3754811.png",
+      "PackagePath": "staticwebassets/images/—Pngtree—database glyph black icon_3754811.png"
+    },
+    {
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/images/—Pngtree—hand painted medical equipment syringe_3825603.png",
+      "PackagePath": "staticwebassets/images/—Pngtree—hand painted medical equipment syringe_3825603.png"
+    },
+    {
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/js/bootstrap.js",
       "PackagePath": "staticwebassets/js/bootstrap.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/js/custom.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/js/custom.js",
       "PackagePath": "staticwebassets/js/custom.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/js/jquery-3.4.1.min.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/js/jquery-3.4.1.min.js",
       "PackagePath": "staticwebassets/js/jquery-3.4.1.min.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/js/slick.min.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/js/slick.min.js",
       "PackagePath": "staticwebassets/js/slick.min.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/LICENSE",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/jquery-validation/LICENSE.md",
       "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/jquery/LICENSE.txt",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/jquery/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/jquery/dist/jquery.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/jquery/dist/jquery.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/jquery/dist/jquery.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/jquery/dist/jquery.slim.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/jquery/dist/jquery.slim.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/jquery/dist/jquery.slim.min.js",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/jquery/dist/jquery.slim.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.js"
     },
     {
-      "Id": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/wwwroot/lib/jquery/dist/jquery.slim.min.map",
+      "Id": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/wwwroot/lib/jquery/dist/jquery.slim.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.map"
     },
     {

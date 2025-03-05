@@ -26,10 +26,11 @@
                 <td>@product.Price</td>
                 <td>@product.Description</td>
                 <td>@product.Category?.Name</td>
-                <td>@product.ImageUrl</td>
+                <td><img src="@Url.Content(product.ImageUrl)" width="100" height="100" alt="ảnh tào lao"></td>
                 <td>
                     <a href="@Url.Action("Update", new { id = product.Id })">Edit</a> |
                     <a href="@Url.Action("Delete", new { id = product.Id })">Delete</a>
+                    <a href="@Url.Action("Display", new { id = product.Id })">Details</a>
                 </td>
             </tr>
         }

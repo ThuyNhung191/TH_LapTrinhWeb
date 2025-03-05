@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebBanHang.Models;
 
@@ -10,9 +11,11 @@ using WebBanHang.Models;
 namespace WebBanHang.Migrations
 {
     [DbContext(typeof(ProductDbContext))]
-    partial class ProductDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250305145733_themDB")]
+    partial class themDB
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -37,23 +40,6 @@ namespace WebBanHang.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "Laptop"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Name = "Smartphone"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Name = "Tablet"
-                        });
                 });
 
             modelBuilder.Entity("WebBanHang.Models.Product", b =>
@@ -86,35 +72,6 @@ namespace WebBanHang.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CategoryId = 1,
-                            Description = "123123",
-                            ImageUrl = "lekrnwlkf",
-                            Name = "Dell XPS 13",
-                            Price = 2000m
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CategoryId = 2,
-                            Description = "123123",
-                            ImageUrl = "lưekrnwlkf",
-                            Name = "iPhone 12",
-                            Price = 1000m
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CategoryId = 3,
-                            Description = "123123",
-                            ImageUrl = "lekrnwlkf",
-                            Name = "iPad Pro",
-                            Price = 800m
-                        });
                 });
 
             modelBuilder.Entity("WebBanHang.Models.ProductImage", b =>

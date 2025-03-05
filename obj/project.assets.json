@@ -4710,19 +4710,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/macos/.nuget/packages/": {}
+    "/Users/tiepiumay/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/WebBanHang.csproj",
+      "projectUniqueName": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/WebBanHang.csproj",
       "projectName": "WebBanHang",
-      "projectPath": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/WebBanHang.csproj",
-      "packagesPath": "/Users/macos/.nuget/packages/",
-      "outputPath": "/Users/macos/Desktop/LapTrinhWeb/BanHang/WebBanHang/obj/",
+      "projectPath": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/WebBanHang.csproj",
+      "packagesPath": "/Users/tiepiumay/.nuget/packages/",
+      "outputPath": "/Users/tiepiumay/Desktop/webBanHang/WebBanHang/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/macos/.nuget/NuGet/NuGet.Config"
+        "/Users/tiepiumay/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -4745,9 +4745,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -4783,7 +4783,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

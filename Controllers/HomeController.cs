@@ -1,21 +1,27 @@
 using System.Diagnostics;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WebBanHang.Models;
+using WebBanHang.Repositories;
 
 namespace WebBanHang.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly IProductRepository _productRepository;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, IProductRepository productRepository)
     {
         _logger = logger;
+        _productRepository = productRepository;
     }
 
-    public IActionResult Index()
+    //Hiển thị danh sách sản phẩm
+    public async Task<IActionResult> Index()
     {
-        return View();
+        var products = await _productRepository.GetAllAsync();
+        return View(products);
     }
 
     public IActionResult Privacy()

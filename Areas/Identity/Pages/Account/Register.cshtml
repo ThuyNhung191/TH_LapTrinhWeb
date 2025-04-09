@@ -1,0 +1,75 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<!-- Header -->
+<div class="container-fluid py-5 bg-gradient text-white text-center" style="background: linear-gradient(to right, #6c63ff, #b06ab3);">
+    <h1 class="display-4 fw-bold">Purple</h1>
+    <p class="fs-5">New here? Signing up is easy. It only takes a few steps</p>
+</div>
+
+<!-- Register Form -->
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card shadow-lg rounded-4">
+                <div class="card-body p-5">
+                    <h2 class="text-center text-primary fw-bold mb-4">SIGN UP</h2>
+
+                    <!-- Form -->
+                    <form id="register-form" method="post">
+                        <!-- Username Field -->
+                        <div class="mb-4">
+                            <label asp-for="Input.FullName" class="form-label fw-semibold">Username</label>
+                            <input asp-for="Input.FullName" type="text" class="form-control rounded-pill shadow-sm" placeholder="Enter your FullName" />
+                            <span asp-validation-for="Input.FullName" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Email Field -->
+                        <div class="mb-4">
+                            <label asp-for="Input.Email" class="form-label fw-semibold">Email</label>
+                            <input asp-for="Input.Email" type="email" class="form-control rounded-pill shadow-sm" placeholder="Enter your email" />
+                            <span asp-validation-for="Input.Email" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Country Field -->
+                        @* <div class="mb-4">
+                            <label asp-for="Input.Country" class="form-label fw-semibold">Country</label>
+                            <select asp-for="Input.Country" class="form-select rounded-pill shadow-sm">
+                                <option value="">Select your country</option>
+                                <option value="US">United States</option>
+                                <option value="VN">Vietnam</option>
+                                <option value="JP">Japan</option>
+                                <option value="UK">United Kingdom</option>
+                            </select>
+                            <span asp-validation-for="Input.Country" class="text-danger small"></span>
+                        </div> *@
+
+                        <!-- Password Field -->
+                        <div class="mb-4">
+                            <label asp-for="Input.Password" class="form-label fw-semibold">Password</label>
+                            <input asp-for="Input.Password" type="password" class="form-control rounded-pill shadow-sm" placeholder="Enter your password" />
+                            <span asp-validation-for="Input.Password" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Terms & Conditions -->
+                        @* <div class="form-check mb-4">
+                            <input asp-for="Input.AcceptTerms" class="form-check-input" />
+                            <label asp-for="Input.AcceptTerms" class="form-check-label">I agree to all Terms & Conditions</label>
+                        </div> *@
+
+                        <!-- Sign Up Button -->
+                        <button type="submit" class="btn btn-primary w-100 py-2 rounded-pill shadow-lg fw-semibold">SIGN UP</button>
+
+                        <!-- Login Link -->
+                        <div class="text-center mt-4">
+                            <p class="text-muted">Already have an account? <a asp-page="./Login">Login</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

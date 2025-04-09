@@ -1,0 +1,57 @@
+
+@model WebBanHang.Models.Contact 
+
+<body>
+   <section class="contact_section  long_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form_container">
+            <div class="heading_container">
+              <h2>
+                Contact Us
+              </h2>
+            </div>
+            <!-- Hiển thị thông báo thành công -->
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["SuccessMessage"]
+                </div>
+            }
+           <form asp-action="Index" asp-controller="Contact" method="post">
+                  <div>
+                      <input asp-for="Name" class="form-control" placeholder="Your Name" />
+                      <span asp-validation-for="Name" class="text-danger"></span>
+                  </div>
+                  <div>
+                      <input asp-for="Phone" class="form-control" placeholder="Phone Number" />
+                      <span asp-validation-for="Phone" class="text-danger"></span>
+                  </div>
+                  <div>
+                      <input asp-for="Email" class="form-control" placeholder="Email" />
+                      <span asp-validation-for="Email" class="text-danger"></span>
+                  </div>
+                  <div>
+                      <textarea asp-for="Message" class="form-control message-box" placeholder="Message"></textarea>
+                      <span asp-validation-for="Message" class="text-danger"></span>
+                  </div>
+                  <div class="btn_box mt-3">
+                      <button type="submit" class="btn btn-primary">
+                          SEND
+                      </button>
+                  </div>
+              </form>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="map_container">
+            <div class="map">
+              <div id="googleMap"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>

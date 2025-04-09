@@ -4,7 +4,7 @@ namespace WebBanHang.Models
     {
         public int Id { get; set; }
 
-        public string Url { get; set; } = "~/images/default.jpg";
+        public string Url { get; set; }
 
         public int ProductId { get; set; }
 

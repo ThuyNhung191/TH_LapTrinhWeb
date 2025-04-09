@@ -59,7 +59,7 @@ body {
 
 /*header section*/
 .hero_area {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -569,7 +569,7 @@ a:focus {
 
 .contact_section {
   position: relative;
-  background-color: #f9fafa;
+  background-color: #ffffffc7;
   padding-top: 75px;
   padding-bottom: 75px;
 }
@@ -846,3 +846,115 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+/* Container giỏ hàng */
+.cart-container {
+  font-family: 'Arial', sans-serif;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Tiêu đề giỏ hàng */
+.cart-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+/* Bảng giỏ hàng */
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th, .cart-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-table th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.cart-table td {
+  background-color: #fff;
+}
+
+/* Định dạng nút "Remove" */
+.remove-btn {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.remove-btn:hover {
+  text-decoration: underline;
+}
+
+/* Nút thanh toán */
+.checkout-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.checkout-btn:hover {
+  background-color: #218838;
+}
+
+/* Light Mode (default) */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.card {
+  background-color: #f8f9fa;
+  color: #000000;
+}
+
+.navbar {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.card.dark-mode {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.navbar.dark-mode {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.table.dark-mode {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.btn-dark-mode {
+  cursor: pointer;
+}

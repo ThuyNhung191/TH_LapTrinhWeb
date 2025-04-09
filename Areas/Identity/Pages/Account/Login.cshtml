@@ -1,0 +1,69 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Sign In";
+}
+
+<!-- Header -->
+<div class="container-fluid py-5 bg-gradient text-white text-center" style="background: linear-gradient(to right, #6c63ff, #b06ab3);">
+    <h1 class="display-5 fw-bold">Hello! Let's get started</h1>
+    <p class="fs-4">Sign in to continue.</p>
+</div>
+
+<!-- Sign In Form -->
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card shadow-lg rounded-4">
+                <div class="card-body p-5">
+                    <h2 class="text-center text-primary mb-4 fw-bold">SIGN IN</h2>
+
+                    <!-- Form -->
+                    <form id="sign-in-form" method="post">
+                        <!-- Username Field -->
+                        <div class="mb-4">
+                            <label asp-for="Input.Email" class="form-label fw-semibold">Username</label>
+                            <input asp-for="Input.Email" type="text" class="form-control rounded-pill shadow-sm" placeholder="Enter your username" />
+                            <span asp-validation-for="Input.Email" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Password Field -->
+                        <div class="mb-4">
+                            <label asp-for="Input.Password" class="form-label fw-semibold">Password</label>
+                            <input asp-for="Input.Password" type="password" class="form-control rounded-pill shadow-sm" placeholder="Enter your password" />
+                            <span asp-validation-for="Input.Password" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Remember Me -->
+                        <div class="form-check mb-4">
+                            <input asp-for="Input.RememberMe" class="form-check-input" />
+                            <label asp-for="Input.RememberMe" class="form-check-label">Keep me signed in</label>
+                        </div>
+
+                        <!-- Sign In Button -->
+                        <button type="submit" class="btn btn-primary w-100 py-2 rounded-pill shadow-lg fw-semibold">SIGN IN</button>
+
+                        <!-- Forgot Password Link -->
+                        <div class="text-center mt-3">
+                            <a asp-page="./ForgotPassword" class="text-muted">Forgot password?</a>
+                        </div>
+                    </form>
+
+                    <!-- Connect Using Facebook -->
+                    <hr class="my-4">
+                    <div class="text-center">
+                        <button class="btn btn-outline-primary rounded-pill shadow-sm py-2 w-100">
+                            <i class="bi bi-facebook me-2"></i> Connect using Facebook
+                        </button>
+                    </div>
+
+                    <!-- Create Account Link -->
+                    <div class="text-center mt-4">
+                        <p class="text-muted">Don't have an account? <a asp-page="./Register">Create</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

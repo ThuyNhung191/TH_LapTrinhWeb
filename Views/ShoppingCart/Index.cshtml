@@ -1,0 +1,83 @@
+@model ShoppingCart
+@{
+    ViewData["Title"] = "Your Cart";
+}
+
+<div class="container mt-5">
+    <!-- Card for the shopping cart -->
+    <div class="card shadow-lg rounded">
+        <div class="card-header bg-primary text-white">
+            <h2 class="text-center mb-0">🛒 Giỏ Hàng Của Bạn</h2>
+        </div>
+        <div class="card-body">
+            @if (Model?.Items != null && Model.Items.Any())
+            {
+                <!-- Responsive table -->
+                <div class="table-responsive">
+                    <table class="table table-hover table-bordered shadow rounded">
+                        <thead class="table-light">
+                            <tr class="text-center">
+                                <th>Sản phẩm</th>
+                                <th>Số lượng</th>
+                                <th>Giá</th>
+                                <th>Tổng cộng</th>
+                                <th>Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.Items)
+                            {
+                                <tr>
+                                    <td class="align-middle">@item.Name</td>
+                                    <td class="align-middle text-center">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <!-- Nút giảm số lượng -->
+                                            <form asp-action="UpdateQuantity" asp-route-productId="@item.ProductId" asp-route-quantity="@(item.Quantity - 1)" method="post">
+                                                <button type="submit" class="btn btn-outline-danger btn-sm me-2" @(item.Quantity <= 1 ? "disabled" : "")>
+                                                    <i class="bi bi-dash"></i>
+                                                </button>
+                                            </form>
+
+                                            <!-- Input nhập số lượng từ bàn phím -->
+                                            <form asp-action="UpdateQuantity" asp-route-productId="@item.ProductId" method="post">
+                                                <input type="number" name="quantity" class="form-control mx-2 text-center" value="@item.Quantity" min="1" style="width: 70px;" onchange="this.form.submit()" />
+                                            </form>
+
+                                            <!-- Nút tăng số lượng -->
+                                            <form asp-action="UpdateQuantity" asp-route-productId="@item.ProductId" asp-route-quantity="@(item.Quantity + 1)" method="post">
+                                                <button type="submit" class="btn btn-outline-success btn-sm ms-2">
+                                                    <i class="bi bi-plus"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle text-success text-center">@item.Price.ToString("C")</td>
+                                    <td class="align-middle text-success text-center">@(item.Price * item.Quantity)</td>
+                                    <td class="align-middle text-center">
+                                        <a asp-action="RemoveFromCart"
+                                           asp-route-productId="@item.ProductId"
+                                           class="btn btn-danger btn-sm shadow">
+                                            <i class="bi bi-trash"></i> Xóa
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <p class="text-center text-muted fs-4">Giỏ hàng của bạn đang trống!</p>
+            }
+        </div>
+        <div class="card-footer bg-light text-end">
+            <a asp-action="Index" asp-controller="Home" class="btn btn-secondary btn-lg shadow me-2">
+                <i class="bi bi-arrow-left"></i> Quay lại
+            </a>
+            <a asp-action="Checkout" class="btn btn-success btn-lg shadow">
+                <i class="bi bi-bag-check"></i> Tới trang thanh toán
+            </a>
+        </div>
+    </div>
+</div>

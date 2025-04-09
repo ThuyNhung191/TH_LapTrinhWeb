@@ -1,0 +1,19 @@
+@model ShoppingCart
+
+@{
+    ViewData["Title"] = "Empty Cart";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow text-center">
+                <div class="card-body">
+                    <h2 class="card-title">Your cart is empty</h2>
+                    <p class="card-text">Looks like you haven't added anything to your cart yet.</p>
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Continue Shopping</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

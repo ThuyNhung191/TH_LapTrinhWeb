@@ -1,0 +1,27 @@
+﻿@page
+@model AccessDeniedModel
+@{
+    ViewData["Title"] = "Access Denied";
+}
+
+<div class="container d-flex flex-column justify-content-center align-items-center vh-100">
+    <div class="text-center">
+        <!-- Icon nổi bật -->
+        <div class="icon-container mb-3">
+            <i class="bi bi-x-circle-fill" style="font-size: 5rem; color: #dc3545;"></i>
+        </div>
+        <!-- Tiêu đề -->
+        <h1 class="text-danger fw-bold" style="font-family: 'Roboto', sans-serif;">@ViewData["Title"]</h1>
+        <!-- Nội dung thông báo -->
+        <p class="text-muted fs-5">Sorry, you do not have access to this resource.</p>
+        <!-- Nút điều hướng -->
+        <div class="mt-4">
+            <a href="/" class="btn btn-primary btn-lg shadow">
+                <i class="bi bi-house-door"></i> Return to Home
+            </a>
+            <a href="javascript:history.back()" class="btn btn-secondary btn-lg shadow ms-3">
+                <i class="bi bi-arrow-left"></i> Go Back
+            </a>
+        </div>
+    </div>
+</div>

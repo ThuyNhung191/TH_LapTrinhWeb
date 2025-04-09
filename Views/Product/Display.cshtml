@@ -1,15 +1,39 @@
 @model WebBanHang.Models.Product;
 
-<h1>Chi Tiết sản phẩm</h1>
-<div class="row">
-    <div class="col-md-6">
-        <img src="@Url.Content(Model.ImageUrl)" alt="ảnh tào lao" width="100%" height="100%">
+<div class="container mt-5">
+    <!-- Tiêu đề -->
+    <h1 class="text-center mb-4" style="font-family: 'Roboto', sans-serif; font-size: 2.5em; font-weight: bold; color: #007bff; text-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
+        Chi Tiết Sản Phẩm
+    </h1>
+
+    <div class="row shadow-lg rounded p-4 bg-light">
+        <!-- Hình ảnh sản phẩm -->
+        <div class="col-md-6 text-center">
+            <img src="@Url.Content(Model.ImageUrl)" alt="Ảnh sản phẩm" class="img-fluid rounded" style="max-height: 400px;" />
+        </div>
+
+        <!-- Thông tin sản phẩm -->
+        <div class="col-md-6">
+            <h2 class="text-primary">@Model.Name</h2>
+            <p class="text-muted">@Model.Description</p>
+            <p class="text-success" style="font-size: 1.5em; font-weight: bold;">Giá: @Model.Price</p>
+            <p class="text-secondary"><strong>Danh mục:</strong> @Model.Category?.Name</p>
+        </div>
     </div>
-    <div class="col-md-6">
-        <h2>@Model.Name</h2>
-        <p>@Model.Description</p>
-        <p>Giá: @Model.Price</p>
-        <p>Danh mục: @Model.Category?.Name</p>
+
+    <!-- Nút điều hướng -->
+    <div class="text-center mt-4">
+        @if (User.IsInRole("Admin"))
+        {
+            <a asp-action="Index" asp-controller="Product" class="btn btn-secondary btn-lg">
+                <i class="bi bi-arrow-left-circle"></i> Quay lại danh sách sản phẩm
+            </a>
+        }
+        else
+        {
+            <a asp-action="Index" asp-controller="Home" class="btn btn-secondary btn-lg">
+                <i class="bi bi-arrow-left-circle"></i> Quay lại trang chủ
+            </a>
+        }
     </div>
 </div>
-<a asp-action="Index" class="btn btn-secondary mt-3">Back to List</a>

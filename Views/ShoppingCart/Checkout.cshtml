@@ -1,0 +1,158 @@
+@model Order
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<!-- Header -->
+<div class="container-fluid page-header py-5 bg-primary-subtle rounded mb-4 shadow-sm">
+    <h1 class="text-center text-primary display-6">Checkout</h1>
+    <ol class="breadcrumb justify-content-center mb-0">
+        <li class="breadcrumb-item"><a href="/" class="text-decoration-none">Home</a></li>
+        <li class="breadcrumb-item active text-primary">Checkout</li>
+    </ol>
+</div>
+
+<!-- Checkout Content -->
+<div class="container-fluid py-4">
+    <div class="container">
+        <div class="row g-4">
+
+            <!-- Billing Form -->
+            <div class="col-lg-7">
+                <div class="card shadow-sm rounded-3 border-0">
+                    <div class="card-body p-4">
+                        <h3 class="mb-4 text-primary fw-bold">Billing Details</h3>
+
+                        <form asp-action="Checkout" method="post">
+
+                            <div class="mb-3">
+                                <label asp-for="HoTen" class="form-label">Full Name</label>
+                                @if (Model.HoTen != null)
+                                {
+                                    <input asp-for="HoTen" class="form-control" readonly />
+                                }
+                                else
+                                {
+                                    <input asp-for="HoTen" class="form-control" placeholder="Enter your full name" />
+                                }
+                                <span asp-validation-for="HoTen" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="DienThoai" class="form-label fw-semibold">Phone *</label>
+                                <input asp-for="DienThoai" class="form-control rounded-2 shadow-sm" placeholder="Enter your phone number">
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="ShippingAddress" class="form-label fw-semibold">Shipping Address *</label>
+                                <input asp-for="ShippingAddress" class="form-control rounded-2 shadow-sm" placeholder="123 Lê Lợi, Quận 1">
+                                <span asp-validation-for="ShippingAddress" class="text-danger small"></span>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="NgayCan" class="form-label fw-semibold">Required Date</label>
+                                    <input asp-for="NgayCan" type="date" class="form-control rounded-2 shadow-sm">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="NgayGiao" class="form-label fw-semibold">Delivery Date</label>
+                                    <input asp-for="NgayGiao" type="date" class="form-control rounded-2 shadow-sm">
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="PhiVanChuyen" class="form-label fw-semibold">Shipping Fee (Manual)</label>
+                                <input asp-for="PhiVanChuyen" class="form-control rounded-2 shadow-sm" placeholder="Optional manual fee">
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="Notes" class="form-label fw-semibold">Notes</label>
+                                <textarea asp-for="Notes" class="form-control rounded-2 shadow-sm" rows="4" placeholder="Notes if any..."></textarea>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="CachThanhToan" class="form-label fw-semibold">Payment Method *</label>
+                                    <select asp-for="CachThanhToan" class="form-select rounded-2 shadow-sm">
+                                        <option value="Bank Transfer">Direct Bank Transfer</option>
+                                        <option value="Check">Check Payment</option>
+                                        <option value="Cash">Cash On Delivery</option>
+                                        <option value="Paypal">Paypal</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="CachVanChuyen" class="form-label fw-semibold">Shipping Method *</label>
+                                    <select id="shippingMethod" asp-for="CachVanChuyen" class="form-select rounded-2 shadow-sm">
+                                        <option value="Free">Free Shipping</option>
+                                        <option value="Flat">Flat rate: $15.00</option>
+                                        <option value="Pickup">Local Pickup: $8.00</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100 shadow-sm py-2 fw-semibold rounded-2 mt-2">PLACE ORDER</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Order Summary -->
+            <div class="col-lg-5">
+                <div class="card shadow-sm rounded-3 border-0">
+                    <div class="card-header bg-primary text-white fw-bold rounded-top-3">
+                        Order Summary
+                    </div>
+                    <div class="card-body">
+                        <table class="table align-middle">
+                            <tbody>
+                                <tr>
+                                    <td class="fw-semibold">Subtotal:</td>
+                                    <td id="subtotal" class="text-end">$@Model.TotalPrice</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-semibold">Shipping Fee:</td>
+                                    <td id="shippingFee" class="text-end">$0.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-semibold text-uppercase">Total:</td>
+                                    <td id="totalPrice" class="text-danger fw-bold text-end">$@Model.TotalPrice</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="alert alert-info small rounded-2 mt-3" role="alert">
+                            Please check your information carefully before placing your order.
+                        </div>
+
+                        <a asp-action="Index" class="btn btn-outline-secondary w-100 rounded-2">Go Back</a>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        function updatePrices() {
+            var subtotal = parseFloat('@Model.TotalPrice');
+            var shippingFee = 0;
+
+            var shippingMethod = document.getElementById('shippingMethod').value;
+            if (shippingMethod === "Flat") shippingFee = 15.00;
+            else if (shippingMethod === "Pickup") shippingFee = 8.00;
+            else shippingFee = 0.00;
+
+            document.getElementById('shippingFee').textContent = "$" + shippingFee.toFixed(2);
+            document.getElementById('totalPrice').textContent = "$" + (subtotal + shippingFee).toFixed(2);
+        }
+
+        document.getElementById('shippingMethod').addEventListener('change', updatePrices);
+        window.onload = function () { updatePrices(); }
+    </script>
+}

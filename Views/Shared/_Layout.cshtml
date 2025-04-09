@@ -7,16 +7,18 @@
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
-  <link rel="icon" href="~/images/fevicon.png" type="image/gif" />
+  <link rel="icon" href="~/images/fevicon.jpg" type="image/gif" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
 
   <title>Edgecut</title>
 
-
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+
+  <!-- Bootstrap icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
@@ -27,7 +29,10 @@
   <link href="~/css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="~/css/responsive.css" rel="stylesheet" />
-
+  <!-- Dark Mode Script -->
+    <script src="~/js/dark-mode.js"></script>
+    <script src="~/js/cart.js"></script>
+    
 </head>
 <body>
     
@@ -47,35 +52,76 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
             <ul class="navbar-nav  ">
-              <li class="nav-item active">
+              <!-- <li class="nav-item active">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
+              </li> -->
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
+                <a href="@Url.Action("Index", "Home")" class="nav-item nav-link active">Trang Chủ</a>
               </li>
+             
               <li class="nav-item">
-                <a class="nav-link" href="furniture.html">Furnitures</a>
+                <a href="@Url.Action("Index", "Contact")" class="nav-item nav-link active">Liên Hệ</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-              </li>
+              
+              
             </ul>
           </div>
-          <div class="quote_btn-container">
+           <div class="quote_btn-container">
             <a href="">
               <span>
-                Login
-              </span>
-              <i class="fa fa-user" aria-hidden="true"></i>
-            </a>
-            <form class="form-inline">
+                @* Login *@
+               </span>
+
+            </a> 
+          </div>
+    <!-- Nút chuyển đổi chế độ sáng/tối -->
+          <div class="text-end">
+            <button id="toggle-dark-mode" class="btn btn-outline-secondary btn-sm btn-dark-mode">
+                🌙 Dark Mode
+            </button>
+          </div>
+          <div class="container mt-3"></div>
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        @TempData["SuccessMessage"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+            </div>
+          
+
+          <div>@await Html.PartialAsync("_LoginPartial")</div>
+
+             <i class="fa fa-user" aria-hidden="true"></i>
+             <form class="form-inline">
               <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
                 <i class="fa fa-search" aria-hidden="true"></i>
               </button>
-            </form>
+             </form>
+
+             @* <form class="d-flex">
+              <button class="btn btn-outline-dark" type="submit">
+                <i class="bi-cart-fill me-1" aria-hidden="true"></i>
+                Cart
+              </button>
+             </form> *@
+
+            <!-- filepath: /Users/macos/Desktop/LapTrinhWeb/webbanhang/Views/Shared/_Layout.cshtml -->
+              <form class="d-flex" action="/ShoppingCart" method="get">
+                  <button class="btn btn-outline-dark position-relative" type="submit">
+                      <i class="bi-cart-fill me-1" aria-hidden="true"></i>
+                      Cart
+                      @if (ViewBag.CartQuantity != null && (int)ViewBag.CartQuantity > 0)
+                      {
+                          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                              @ViewBag.CartQuantity
+                          </span>
+                      }
+                  </button>
+              </form>
+
+
           </div>
         </div>
       </nav>
@@ -305,7 +351,7 @@
   <!-- end client section -->
 
   <!-- contact section -->
-  <section class="contact_section  long_section">
+  @* <section class="contact_section  long_section">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -345,7 +391,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> *@
   <!-- end contact section -->
 
   <!-- info section -->

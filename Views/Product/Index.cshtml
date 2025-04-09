@@ -4,37 +4,90 @@
     ViewData["Title"] = "Products";
 }
 
-<h2>Product List</h2>
+<div class="container mt-5">
+    <!-- Tiêu đề -->
+    <h1 class="text-center mb-4 text-primary shadow rounded p-3" style="font-family: 'Roboto', sans-serif; font-size: 2.8em; font-weight: bold; background-color: #f0f8ff;">
+        🛒 Danh sách sản phẩm 🛒
+    </h1>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Price</th>
-            <th>Description</th>
-            <th>Category</th>
-            <th>Image</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var product in Model)
-        {
-            <tr>
-                <td>@product.Id</td>
-                <td>@product.Name</td>
-                <td>@product.Price</td>
-                <td>@product.Description</td>
-                <td>@product.Category?.Name</td>
-                <td><img src="@Url.Content(product.ImageUrl)" width="100" height="100" alt="ảnh tào lao"></td>
-                <td>
-                    <a href="@Url.Action("Update", new { id = product.Id })">Edit</a> |
-                    <a href="@Url.Action("Delete", new { id = product.Id })">Delete</a>
-                    <a href="@Url.Action("Display", new { id = product.Id })">Details</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+    <!-- Tìm kiếm -->
+    <div class="input-group mb-4 shadow-sm rounded">
+        <form asp-action="Index" method="get" class="w-100 d-flex">
+            <input type="text" name="search" class="form-control" placeholder="🔍 Tìm kiếm theo tên hoặc ID" />
+            <button type="submit" class="btn btn-primary btn-lg ms-2">Search</button>
+        </form>
+    </div>
 
-<a asp-action="Add" class="btn btn-success mt-3">Add New Product</a>
+    <!-- Bảng danh sách sản phẩm -->
+    <div class="table-responsive shadow rounded">
+        <table class="table table-bordered table-hover align-middle">
+            <thead class="table-primary">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>Image</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (var product in Model)
+                    {
+                        <tr>
+                            <td>@product.Id</td>
+                            <td>@product.Name</td>
+                            <td class="text-success">@product.Price.ToString("C")</td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(product.Description) && product.Description.Length > 50)
+                                {
+                                    @product.Description.Substring(0, 50)
+                                    <span>...</span>
+                                    <a href='@Url.Action("Display", "Product", new { id = product.Id })' class="text-primary">Xem thêm</a>
+                                }
+                                else
+                                {
+                                    @product.Description
+                                }
+                            </td>
+                            <td>@product.Category?.Name</td>
+
+                            <td>
+                                <img src="@Url.Content(product.ImageUrl)" class="img-thumbnail" width="100" height="100" alt="Ảnh sản phẩm">
+                            </td>
+                            <!-- Thao tác -->
+                            <td class="d-flex justify-content-start">
+                                <a href="@Url.Action("Update", new { id = product.Id })" class="btn btn-info btn-sm me-2">
+                                    <i class="bi bi-pencil-square"></i> Edit
+                                </a>
+                                <a href="@Url.Action("Delete", new { id = product.Id })" class="btn btn-danger btn-sm me-2">
+                                    <i class="bi bi-trash"></i> Delete
+                                </a>
+                                <a href="@Url.Action("Display", new { id = product.Id })" class="btn btn-secondary btn-sm">
+                                    <i class="bi bi-eye"></i> View
+                                </a>
+                            </td>
+
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="7" class="text-center text-muted">Không có sản phẩm nào để hiển thị.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Nút thêm mới -->
+    <div class="d-flex justify-content-end mt-4">
+        <a asp-action="Add" class="btn btn-success btn-lg shadow-lg">
+            <i class="bi bi-plus-circle"></i> Thêm sản phẩm mới
+        </a>
+    </div>
+</div>

@@ -1,0 +1,63 @@
+@using System.Globalization
+@model WebBanHang.Models.InvoiceViewModel
+
+<div class="container mt-5">
+  <div class="card shadow-sm rounded-lg border-0">
+    <div class="card-body">
+      <!-- Tiêu đề được thiết kế lại để nổi bật -->
+      <h3 class="card-title text-center text-white bg-primary py-3 rounded-lg mb-4" style="font-size: 2rem; font-weight: bold;">
+        CHI TIẾT HOÁ ĐƠN
+      </h3>
+
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <p><strong>Mã đơn hàng:</strong> @Model.OrderId</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p><strong>Ngày đặt hàng:</strong> @Model.OrderDate.ToString("dd/MM/yyyy")</p>
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <p><strong>Khách hàng:</strong> @Model.CustomerName</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p><strong>Email:</strong> @Model.CustomerEmail</p>
+        </div>
+      </div>
+
+      <table class="table table-bordered mt-3 table-hover">
+        <thead class="bg-light">
+          <tr>
+            <th>Sản phẩm</th>
+            <th>Số lượng</th>
+            <th>Đơn giá</th>
+            <th>Thành tiền</th>
+          </tr>
+        </thead>
+        <tbody>
+          @foreach (var item in Model.Items)
+          {
+            <tr>
+              <td>@item.ProductName</td>
+              <td>@item.Quantity</td>
+              <td>@item.Price.ToString("C")</td> <!-- Đơn giá -->
+              <td>@(item.Quantity * item.Price)</td> <!-- Thành tiền -->
+            </tr>
+          }
+        </tbody>
+      </table>
+
+      <div class="d-flex justify-content-end mt-3">
+        <h5><strong>Tổng cộng:</strong> @Model.TotalAmount.ToString("C")</h5>
+      </div>
+
+      <!-- Nút "Tiếp tục mua hàng" -->
+      <div class="text-center mt-4">
+        <a asp-controller="Home" asp-action="Index" class="btn btn-primary btn-lg px-5 py-3 rounded-pill shadow-sm">MUA HÀNG</a>
+      </div>
+
+    </div>
+  </div>
+</div>
